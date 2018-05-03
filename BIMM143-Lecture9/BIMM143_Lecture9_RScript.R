@@ -4,6 +4,7 @@ wisc.data <- as.matrix(wisc.df[,3:ncol(wisc.df)])
 
 #How many M's do we have?
 table(wisc.df$diagnosis)
+#
 
 # Set the row names of wisc.data
 row.names(wisc.data) <- wisc.df$id
